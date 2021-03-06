@@ -10,4 +10,8 @@ def timer(reminder,seconds):
     duration=1000
     winsound.MessageBeep(frequency,duration)
 
+if __name__=="__main__":
+    words=input("What would you remind of:")
+    sec=int(input("Enter Seconds:"))
+    timer(words,sec)
 
